@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap') 
 
 body {
 	margin: 8px 0;
@@ -13,6 +13,7 @@ h1 {
 }
 h2{
 	font-size:1.3em;
+	font-family: 'Playfair Display', serif;
 	color:black;
 }
 
