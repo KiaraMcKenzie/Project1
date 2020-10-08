@@ -72,7 +72,7 @@ button {
 }
 
 label {
-	display: block;
+
 	color: blue;
 }
   /* For mobile phones: */
@@ -147,7 +147,7 @@ button {
 }
 
 label {
-	display: block;
+
 	color: blue;
 }
   }
@@ -158,7 +158,7 @@ label {
 	margin-top: 12px;
 	padding: 30px;
 	float: left;
-	width: 60;
+	width: 60%
 }
 
 h1 {
@@ -217,7 +217,7 @@ button {
 }
 
 label {
-	display: block;
+	
 	color: blue;
 }
 }
