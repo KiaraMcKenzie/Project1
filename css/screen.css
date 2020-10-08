@@ -4,17 +4,19 @@ body {
 	margin: 8px 0;
     text-align: center;
 	line-height: 1.45;
-	background-color: #DDF4FB;
+
 	
 }
 
 .main {
-	padding: 20 px;
+	
+	padding: 30 px;
 	float: left;
 	width: 60;
 }
 
 h1 {
+	background-color:#b1eb96;
 	text-align: center;
 	font-family: 'Playfair Display', serif;
 	font-size: 2.3em;
@@ -22,10 +24,6 @@ h1 {
 	padding: 25px;
 }
 
-fieldset {
-	background-color: #b0aea7;
-	float: left;
-}
 
 
 	
@@ -38,9 +36,10 @@ h2{
 }
 
 form {
+	
     width: 100%;
-	height: 150px;
-	padding: 16px;
+	height: 125px;
+	padding: 25px;
 	font-size: 14px;	
 }
 
@@ -54,6 +53,9 @@ ul li {
 	padding: 1px;
 	font-size: 1.2em;
 }
+label {
+	color: blue;
+}
 button {
   background-color: #4CAF50;
   color: white;
@@ -66,7 +68,7 @@ button {
 }
 .signupbtn {
 	float: left;
-	width: 60;
+	width: 100%;
 }
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
