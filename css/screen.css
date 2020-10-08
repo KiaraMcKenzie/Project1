@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap') 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 body {
 	margin: 8px 0;
@@ -8,11 +8,15 @@ body {
 	
 }
 h1 {
+	text-align: center;
+	font-family: 'Playfair Display', serif;
 	font-size: 2.3em;
 	color: black;
+	padding: 25px;
 }
 h2{
 	font-size:1.3em;
+	padding: 12px 20px;
 	font-family: 'Playfair Display', serif;
 	color:black;
 }
@@ -31,6 +35,7 @@ ul {
 	display: block;
 }
 ul li {
+	text-align: center;
 	margin: 0 0 10px 0;
 	padding: 1px;
 	font-size: 1.2em;

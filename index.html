@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
 <head>
-  <title>Lab 2</title>
+  <title>Project 1</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="css/reset.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <script src="js/script.js"></script>
 </head>
 <body>
 <header>
@@ -20,35 +21,33 @@
 <!-- /* Using listing because I could not stop the form  -->
 <!-- from stacking next to each instead of on top -->
 
-<form name="Project" action="#" method="get" autocomplete="on">
+<form name="Project" action="#" method="get" autocomplete="on" onsubmit="return validateForm()">
 
 
 
-
+<fieldset>
 <ul>
 <li>
 <label>First Name:</label> 
-<input type="text" name="first_name_field" value = "John">
+<input type="text" name="firstname">
 </li>
 
 <li>
 <label>Last Name:</label>
-<input type="text" name="last_name_field" value = "Doe">
+<input type="text" name="lastname">
 </li>
 
 <li>
 <label> Phone Number:</label>
-<input type="tel" name="phone_field" value="555-555-5555">
+<input type="tel" name="phone_field">
 </li>
 
 <li>
 <label>E-mail:</label>
-<input type="email" name="email_field" value="some@one.com">
+<input type="email" name="email_field">
 </li>
-
-
-
 </ul>
+</fieldset>
 <input type="submit" value="Submit">
 </form>
 </body>
