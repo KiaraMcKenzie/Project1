@@ -28,6 +28,7 @@ h1 {
 
 	
 h2{
+	font-weight: bold;
 	font-size:1.3em;	
 	padding: 12px 20px;
 	font-family: 'Playfair Display', serif;
@@ -70,11 +71,15 @@ button {
 }
 
 label {
+	display: block;
 	color: blue;
 }
-
-@media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  [class*="col-"] {
+@media screen and (min-width: 360px) and (max-width: 640px) {
     width: 100%;
   }
+  
+  /*for tablets */
+@media screen and (min-width: 750px) and (max-width: 1024px) {  
+  
+}
