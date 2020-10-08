@@ -53,9 +53,7 @@ ul li {
 	padding: 1px;
 	font-size: 1.2em;
 }
-label {
-	color: blue;
-}
+
 button {
   background-color: #4CAF50;
   color: white;
@@ -70,6 +68,11 @@ button {
 	float: left;
 	width: 100%;
 }
+
+label {
+	color: blue;
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="col-"] {
