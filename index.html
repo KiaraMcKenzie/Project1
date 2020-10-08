@@ -21,7 +21,7 @@
 <!-- /* Using listing because I could not stop the form  -->
 <!-- from stacking next to each instead of on top -->
 
-<form name="Project" action="#" method="get" autocomplete="on" onsubmit="return validateForm()">
+<form name="Project" action="#" method="post" autocomplete="on">
 
 
 
@@ -29,22 +29,22 @@
 <ul>
 <li>
 <label>First Name:</label> 
-<input type="text" name="firstname">
+<input type="text" name="firstname" required>
 </li>
 
 <li>
 <label>Last Name:</label>
-<input type="text" name="lastname">
+<input type="text" name="lastname" required>
 </li>
 
 <li>
 <label> Phone Number:</label>
-<input type="tel" name="phone_field">
+<input type="tel" name="phone_field" required>
 </li>
 
 <li>
 <label>E-mail:</label>
-<input type="email" name="email_field">
+<input type="email" name="email_field" required>
 </li>
 </ul>
 </fieldset>
