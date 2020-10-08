@@ -10,18 +10,19 @@
 </head>
 <body>
 <header>
+<div class = "main">
 	<h1> Project Symphony</h1>
 	<h2> This new software will allow users to combine all music 
 		 subscriptions into one app instead of multiple apps</h2>
 	<h2> It keeps track of your payments and allows you to delete and
 		 add new subscriptions</h2>
 	<h2> This software is currently in developing and if you are interested in beta testing it, please enter your info below.</h2>
-	
+</div>
 </header>
 <!-- /* Using listing because I could not stop the form  -->
 <!-- from stacking next to each instead of on top -->
 
-<form name="Project" action="#" method="post" autocomplete="on">
+<form name="Project" action="#" method="post" autocomplete="on" onsubmit="return ValidateForm()">
 
 
 
@@ -39,16 +40,16 @@
 
 <li>
 <label> Phone Number:</label>
-<input type="tel" name="phone_field" required>
+<input type="tel" name="phone_field" placeholder = "555-555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
 </li>
 
 <li>
 <label>E-mail:</label>
-<input type="email" name="email_field" required>
+<input type="email" name="email_field" >
 </li>
 </ul>
 </fieldset>
-<input type="submit" value="Submit">
+<button type = "submit" class="signupbtn">Sign up</button>
 </form>
 </body>
 </html>

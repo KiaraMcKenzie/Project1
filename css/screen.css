@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
+@media screen and (min-width: 1080px) {
 body {
 	margin: 8px 0;
     text-align: center;
@@ -7,6 +7,13 @@ body {
 	background-color: #DDF4FB;
 	
 }
+
+.main {
+	padding: 20 px;
+	float: left;
+	width: 60;
+}
+
 h1 {
 	text-align: center;
 	font-family: 'Playfair Display', serif;
@@ -14,20 +21,27 @@ h1 {
 	color: black;
 	padding: 25px;
 }
+
+fieldset {
+	background-color: #b0aea7;
+	float: left;
+}
+
+
+	
 h2{
-	font-size:1.3em;
+	font-size:1.3em;	
 	padding: 12px 20px;
 	font-family: 'Playfair Display', serif;
 	color:black;
+
 }
 
 form {
     width: 100%;
 	height: 150px;
-	padding: 12px 20px;
-	font-size: 14px;
-
-	
+	padding: 16px;
+	font-size: 14px;	
 }
 
 ul {
@@ -39,4 +53,19 @@ ul li {
 	margin: 0 0 10px 0;
 	padding: 1px;
 	font-size: 1.2em;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  opacity: 0.9;
+}
+.signupbtn {
+	float: left;
+	width: 60;
+}
 }

@@ -1,19 +1,10 @@
-// to validate that first name field is not blank
+// to validate that email field is a valid email
 function validateForm() {
-var x = document.forms["Project"]["firstname"].value;
-  if (x == "") {
-    alert("First name and last name must be filled out");
+  var x = document.forms["Project"]["email"].value;
+  var atpos = x.indexOf("@");
+  var dotpos = x.lastIndexOf(".");
+  if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+    alert("Not a valid e-mail address");
     return false;
-  }
- // to validate that last name field is not blank
-var x = document.forms["Project"]["lastname"].value;
-  if (x == "") {
-    alert("last name must be filled out");
-    return false;
-  }
-var x = document.forms["Project"]["lastname"].value;
-  if (x == "") {
-    alert("last name must be filled out");
-    return false;
-  }
+	
 }
