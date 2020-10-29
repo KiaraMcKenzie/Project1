@@ -6,51 +6,41 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="css/reset.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
-  <script src="js/script.js"></script>
+  <script src="js/script.js" async></script>
 </head>
-<body>
-<header>
-<div class = "main">
+	<body>
+		<header>
+<div class="main">
 	<h1> Project Symphony</h1>
-	<h2> This new software will allow users to combine all music 
-		 subscriptions into one app instead of multiple apps</h2>
-	<h2> It keeps track of your payments and allows you to delete and
-		 add new subscriptions</h2>
-	<h2> This software is currently in developing and if you are interested in beta testing it, please enter your info below.</h2>
-	
+		<p> This new software will allow users to combine all music 
+		 subscriptions into one app instead of multiple apps</p>
+		<p> It keeps track of your payments and allows you to delete and
+		 add new subscriptions</p>
+		<p> This software is currently in developing and if you are interested in beta testing it, please enter your info below.</p>
 </div>
-</header>
+		</header>
 <!-- /* Using listing because I could not stop the form  -->
 <!-- from stacking next to each instead of on top -->
-
-<form name="Project" action="#" method="post" autocomplete="on" onsubmit="return ValidateForm()">
-
-
-
-
-<ul>
-<li>
-<label>First Name:</label> 
-<input type="text" name="firstname" required>
-</li>
-
-<li>
-<label>Last Name:</label>
-<input type="text" name="lastname" required>
-</li>
-
-<li>
-<label> Phone Number:</label>
-<input type="tel" name="phone_field" placeholder = "555-555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-</li>
-
-<li>
-<label>E-mail:</label>
-<input type="email" name="email_field" >
-</li>
-</ul>
-
-<button type = "submit" class="signupbtn">Sign up</button>
-</form>
-</body>
+	<form name="Project" action="#" method="post" autocomplete="on">
+		<fieldset class="container">
+			<p>
+			 <label>First Name:</label> 
+			 <input type="text" name="firstname" required>
+			</p>
+			<p>
+			 <label>Last Name:</label>
+			 <input type="text" name="lastname" required>
+			</p>
+			<p>
+			<label> Phone Number:</label>
+			<input type="tel" name="phone_field" placeholder="555-555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+			</p>
+			<p>
+			<label>E-mail:</label>
+			<input type="email" name="email_field" placeholder="ilovemusic@mail.com" >
+			</p>
+			<button type="submit">Sign up</button>
+		</fieldset>
+	</form>
+	</body>
 </html>
